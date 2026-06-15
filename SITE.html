@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Someone Special</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <!-- tiktok meowish -->
+    <div class="envlope-wrapper">
+      <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+          <div class="words line1">To: Lexa</div>
+          <div class="words line2">Dear Lexa, Could I get to know</div>
+          <div class="words line3">you better?, The true you?</div>
+          <div class="words line4">can we hang out more soon?</div>
+        </div>
+        <div class="hearts">
+          <div class="heart a1"></div>
+          <div class="heart a2"></div>
+          <div class="heart a3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="reset">
+      <button id="open">Open</button>
+      <button id="reset">Close</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+
+ 
+
+<div class="music-container" id="vinylWidget">
+  <div class="song-title">SZA - Nobody Gets Me<span class="time-countdown" id="trackTimer">--:--</span></div>
+  <div class="vinyl-container">
+    <div class="vinyl-spinner">
+      <img src="SZA.jpg" alt="Vinyl Cover">
+      <div class="center-hole"></div>
+    </div>
+  </div>
+  <audio id="szaSong" src="SZA-Nobody-Gets-Me.mp3" preload="auto"></audio>
+</div>
+
+<div id="cr-wrapper">
+    <button id="cr-trigger-btn">One more thing…</button>
+
+    <div id="cr-overlay" class="cr-hidden">
+        <div class="cr-note">
+            <p>Would you maybe want to go out sometime?</p>
+            <div class="cr-buttons">
+                <button class="cr-btn cr-yes">Yes </button>
+                <button class="cr-btn cr-maybe">Need time </button>
+                <button class="cr-btn cr-no">Friends </button>
+            </div>
+            <div class="cr-heart">♥</div>
+        </div>
+    </div>
+
+    <div id="cr-toast" class="cr-hidden">
+        <small>🏆 Achievement Unlocked</small>
+        <p>Hit me up, Coffee date?</p>
+    </div>
+</div>
+
+</div> 
+</body>
+</html>
